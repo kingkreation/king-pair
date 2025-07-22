@@ -77,7 +77,7 @@ var randomItem = selectRandomItem(items);
                         const string_session = mega_url.replace('https://mega.nz/file/', '');
                         let md = "king~" + string_session;
                         let code = await sock.sendMessage(sock.user.id, { text: md });
-                        let desc = `*Hey there, DE-KING User!* 👋🏻
+                        let desc = `*Hey there, User!* 👋🏻
 
 Thanks for using My Bot — your session has been successfully created!
 
@@ -113,7 +113,7 @@ renderLargerThumbnail: true
 {quoted:code })
                     } catch (e) {
                             let ddd = sock.sendMessage(sock.user.id, { text: e });
-                            let desc = `Hey there, DE-KING User!* 👋🏻
+                            let desc = `Hey there, User!* 👋🏻
 
 Thanks for using My Bot — your session has been successfully created!
 
