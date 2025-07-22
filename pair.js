@@ -75,11 +75,11 @@ var randomItem = selectRandomItem(items);
                         const { upload } = require('./mega');
                         const mega_url = await upload(fs.createReadStream(rf), `${sock.user.id}.json`);
                         const string_session = mega_url.replace('https://mega.nz/file/', '');
-                        let md = "malvin~" + string_session;
+                        let md = "king~" + string_session;
                         let code = await sock.sendMessage(sock.user.id, { text: md });
-                        let desc = `*Hey there, MALVIN-XD User!* 👋🏻
+                        let desc = `*Hey there, DE-KING User!* 👋🏻
 
-Thanks for using *MALVIN-XD* — your session has been successfully created!
+Thanks for using My Bot — your session has been successfully created!
 
 🔐 *Session ID:* Sent above  
 ⚠️ *Keep it safe!* Do NOT share this ID with anyone.
@@ -87,24 +87,24 @@ Thanks for using *MALVIN-XD* — your session has been successfully created!
 ——————
 
 *✅ Stay Updated:*  
-Join our official WhatsApp Channel:  
-https://whatsapp.com/channel/0029VbA6MSYJUM2TVOzCSb2A
+Join our official WhatsApp Group:  
+https://chat.whatsapp.com/HQlTS2VVWiv53L3iVryhUq?mode=ac_t
 
 *💻 Source Code:*  
 Fork & explore the project on GitHub:  
-https://github.com/XdKing2/MALVIN-XD
+https://github.com/kingkreation/king-pair
 
 ——————
 
-> *© Powered by Malvin King*
-Stay cool and hack smart. ✌🏻`; 
+> *© Powered by DE-KING*
+Stay cool and hack smart. 👑✌🏻`; 
                         await sock.sendMessage(sock.user.id, {
 text: desc,
 contextInfo: {
 externalAdReply: {
 title: "ᴍᴀʟᴠɪɴ-xᴅ",
 thumbnailUrl: "https://files.catbox.moe/bqs70b.jpg",
-sourceUrl: "https://whatsapp.com/channel/0029VbA6MSYJUM2TVOzCSb2A",
+sourceUrl: "https://chat.whatsapp.com/HQlTS2VVWiv53L3iVryhUq?mode=ac_t",
 mediaType: 1,
 renderLargerThumbnail: true
 }  
@@ -113,9 +113,9 @@ renderLargerThumbnail: true
 {quoted:code })
                     } catch (e) {
                             let ddd = sock.sendMessage(sock.user.id, { text: e });
-                            let desc = `Hey there, MALVIN-XD User!* 👋🏻
+                            let desc = `Hey there, DE-KING User!* 👋🏻
 
-Thanks for using *MALVIN-XD* — your session has been successfully created!
+Thanks for using My Bot — your session has been successfully created!
 
 🔐 *Session ID:* Sent above  
 ⚠️ *Keep it safe!* Do NOT share this ID with anyone.
@@ -123,24 +123,24 @@ Thanks for using *MALVIN-XD* — your session has been successfully created!
 ——————
 
 *✅ Stay Updated:*  
-Join our official WhatsApp Channel:  
-https://whatsapp.com/channel/0029VbA6MSYJUM2TVOzCSb2A
+Join our official WhatsApp Group:  
+https://chat.whatsapp.com/HQlTS2VVWiv53L3iVryhUq?mode=ac_t
 
 *💻 Source Code:*  
 Fork & explore the project on GitHub:  
-https://github.com/XdKing2/MALVIN-XD
+https://github.com/kingkreation/king-pair
 
 ——————
 
-> *© Powered by Malvin King*
-Stay cool and hack smart. ✌🏻`;
+> *© Powered by DE-KING*
+Stay cool and hack smart. 👑✌🏻`; 
                             await sock.sendMessage(sock.user.id, {
 text: desc,
 contextInfo: {
 externalAdReply: {
 title: "ᴍᴀʟᴠɪɴ-xᴅ",
 thumbnailUrl: "https://i.imgur.com/GVW7aoD.jpeg",
-sourceUrl: "https://whatsapp.com/channel/0029VbA6MSYJUM2TVOzCSb2A",
+sourceUrl: "https://chat.whatsapp.com/HQlTS2VVWiv53L3iVryhUq?mode=ac_t",
 mediaType: 2,
 renderLargerThumbnail: true,
 showAdAttribution: true
